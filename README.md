@@ -26,9 +26,7 @@ The dataset consists of **246,745 political advertisements** with **40 features*
 ## Project Structure
 descriptive_stats_project/
 
-data/
 fb_ads_president_scored_anon.csv
-
 pure_python_stats.py
 pandas_stats.py
 visualizations.py
@@ -38,11 +36,25 @@ message_type_distribution.png
 top_topics.png
 incivility_rate.png
 
+requirements.txt
 README.md
 FINDINGS.md
 COMPARISON.md
 
 ---
+
+## Dataset Access
+
+The dataset used in this project is not included in this repository due to size and usage restrictions.
+
+You can download the dataset from the following source:
+[https://drive.google.com/file/d/1gvtvX8fATFrrzraPmTSf205U8u3JExUR/view?usp=sharing]
+
+### Instructions:
+1. Download the dataset file
+2. Rename it to:
+   fb_ads_president_scored_anon.csv
+3. Place it in the root project directory:
 
 ## How to Run the Project
 
@@ -55,7 +67,6 @@ pip install pandas matplotlib
 python pure_python_stats.py
 python pandas_stats.py
 python visualizations.py
-
 
 ---
 
