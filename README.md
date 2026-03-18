@@ -24,23 +24,24 @@ The dataset consists of **246,745 political advertisements** with **40 features*
 ---
 
 ## Project Structure
-descriptive_stats_project/
-
-fb_ads_president_scored_anon.csv
-pure_python_stats.py
-pandas_stats.py
-visualizations.py
-
-output/
-message_type_distribution.png
-top_topics.png
-incivility_rate.png
-
-requirements.txt
-README.md
-FINDINGS.md
-COMPARISON.md
-
+```bash
+descriptive-stats-project/ 
+│ 
+├── pure_python_stats.py # Descriptive statistics using core Python 
+├── pandas_stats.py # Analysis using Pandas 
+├── visualizations.py # Data visualizations (matplotlib) 
+│ 
+├── output/ # Generated charts 
+│ ├── message_type_distribution.png 
+│ ├── top_topics.png 
+│ └── incivility_distribution.png 
+│ 
+├── README.md # Project documentation 
+├── FINDINGS.md # Detailed analysis and insights 
+├── requirements.txt # Dependencies (for pandas + visualization) 
+│ 
+└── fb_ads_president_scored_anon.csv # (Not included - see Dataset Access section)
+```
 ---
 
 ## Dataset Access
